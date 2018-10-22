@@ -17,5 +17,7 @@ deploy:
     tags: true
   skip_cleanup: true
   email: lostintime.dev@gmail.com
+  api_key:
+    secure: kWhTzG0J7mCj6Cjkv9fUttX6Hv6892caI47CWYn62xn6zar8e8dXaoAsWFF7r/61rp/wwqQchsZ4J34oih8LyB/VyVdciyKtuzwlI47GohhuQA6EOA2oAQIticQ9ErOS7KXY2hAghBrqgBQIlAs595Db+KrRPaVBUOOcTfdV7wnRguKihiQYHMfJL/CZ17+v7uecjX74ypVWW/VyEWgIf+wuqHHQe47Stg8rxoMAYghjLXL/J+EzXMBa0Ebx6cZT/bk9RxaRBond8auL8PzrNGKkDcoVeoHsyFt086Te3bc4Xh+ioUkW/42MQU/yVgrtLikHfo0HxRbm2j98+j4/rnsZ9L8C/PA2J01wIb57cM4LuMXTQbVFOvvg5Ygp7t2CYxuivfDwUUK6uoTzujpAElZ6x3MbGPWD87y5c1rUONY1H8AdVysDK4etkj/Kc+4pDhwjH/CPKwM92PMJqgAG4vpMymFpGHCzb8dmjH1z9Q5K6eA5ODJRgJ7tct4lvUmT5/tGnychk5u7LRwycd8ygBA6V7H0t2L9JJ9NoU9uYzzEtGcJmD5+75UkXhIPulHd7ULEBAM2hhaep+CWXel3Ht8Zdjt/2Ok6g1SSH57nDKqHsshPr8CiJW+xjdDV8AatkGJS3QzkwSbgCbLNuaSOmweqGxJ+qoZdt2ZBmk7361w=
 after_success:
 - codecov
