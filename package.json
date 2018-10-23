@@ -6,8 +6,8 @@
   "author": "lostintime.dev@gmail.com",
   "license": "Apache-2.0",
   "homepage": "https://github.com/lostintime/main-ts",
-  "main": "lib/main.js",
-  "types": "lib/main.d.ts",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "repository": {
     "type": "git",
     "url": "git+ssh://github.com:lostintime/main-ts.git"
